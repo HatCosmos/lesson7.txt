@@ -1,0 +1,18 @@
+# Задание №1
+# Проверяем, является ли строка палиндромом
+
+s = input()
+
+if s == s[::-1]:
+    print("yes")
+else:
+    print("no")
+
+
+# Задание №2
+# Заменяем несколько пробелов на один
+
+text = input()
+
+result = " ".join(text.split())
+print(result)
